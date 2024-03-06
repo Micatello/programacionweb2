@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100%;
+   
+}
+
+
+.footer{
+        
+    margin-top: auto;
+   
+   
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: black;
+    padding: 0.2rem 1rem;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+li a:hover{
+    background-color: rgb(91, 91, 90);
+}
+ul{
+    list-style: none;
+}
+
+li {
+    margin: 2rem 0;
+    
+    
+}
+
+/*.menu_img{
+    max-width: 100%;
+} */
+
+
+
+.nav{
+    justify-content: space-between;
+    height: 100%;
+    
+ }
+
+ .navbar{
+   height: 100%;
+   
+   
+ }
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(241, 82, 24);
+    padding: 2rem 1rem;
+}
+
+.nombre{
+    padding: 2rem;
+}
+
+.descripcion{
+    padding: 0.5rem;
+    letter-spacing: 0.25pt;
+    line-height: 1.8;
+}
+
+.tienda_enlace{
+    text-decoration: none;
+    color: rgb(241, 82, 24);
+}
+
+.tienda{
+    padding: 2rem 1rem;
+
+}
+
+.tienda_img{
+    padding: 1rem;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.tienda_descripcion{
+    padding: 1rem;
+}
+
+.titulo-tienda{ 
+    font-size: 2rem ;
+    font-family: cursive;
+    color:rgb(241, 82, 24) ;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.tienda__img{
+    padding: 1rem;
+}
+
+.img-chica{
+    width: 13rem;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.contacto_contenido {
+    margin: 2rem;
+    width: 80%;
+    padding: 2rem;
+   text-align: center;
+   background-color: rgba(0, 0, 0, .1);
+  
+   
+    
+    
+}
+.contacto__input{
+    width: 100%;
+    display: block;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 0.75rem;
+    
+}
+.contacto__btn{
+    width: 20%;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: #fff;
+    background-color: #3483fa;
+    border-color: transparent;
+    border-radius: 3rem;
+}
+
+.contacto_mensaje{
+    color: #333;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+footer{
+    background-color: rgb(10, 10, 10);
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .personajes_img {
+        float: left;
+        padding: 0 1rem;
+    }
+    .nombre{
+        text-align: center;
+    }
+  
+    .tienda_img{
+        margin: 0 5rem;
+    }
+
+    .menu_img{
+       padding: 1rem 3rem; 
+    }
+
+    .nav{
+       
+     font-size: 1rem;
+    }
+
+}
+
+@media(min-width: 992px) {
+    li{
+       display: inline;
+        
+        
+       
+         }
+        
+    
+    
+      
+    .nav__bar{
+        color: #fff;
+        padding: 1rem ;
+
+        font-size: 1rem;
+    }    
+   
+     .menu_img{
+        float: right;
+
+        
+        
+    }
+
+    .personajes_img{
+        float: none;
+        width: 500px;
+        height: 350px;
+        padding: 0 2rem;
+        margin: 2rem;
+    }
+
+    #img_chandler{
+        width: 400px;
+        height: 300px;
+    }
+
+    .personajes{
+        text-align: center;
+        display: flex;
+      
+    }
+
+    .descripcion{
+        margin: 2rem;
+        padding: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .tienda{
+       
+        display: flex;
+    }
+
+     .tienda_descripcion{
+        
+        padding: 5rem 1rem;
+        display: inline-block;
+        width: 50rem;
+        font-size: 1.5rem;
+
+
+    }
+
+    .tienda_img{
+       
+     float: right;
+       }
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+   body{
+   position: relative;
+   padding-bottom: 3rem;
+   
+   } 
+   .contacto_contenido{
+    margin: 3rem 18rem;
+    padding: 3rem;
+    width: 60%;
+    
+   }
+
+   
+
+    
+
+ 
+
+  
+        
+    }
+
+  
+    
